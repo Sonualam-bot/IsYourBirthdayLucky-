@@ -40,4 +40,28 @@ input {
   padding: 0.5rem;
   border-radius: 0.3rem;
 }
+div{
+  margin: 1rem;
+  padding: 1rem;
+  color: rgb(0, 255, 128);
+  text-align: center;
+}
+.blink_me {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+p {
+  padding: 1rem;
+  text-align: left;
+  font-size: large;
+}
+
+#result{
+  text-align: center;
+}
 
